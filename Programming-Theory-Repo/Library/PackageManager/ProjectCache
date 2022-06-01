@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637895757260000000
     m_Hash: 1850432462
+=======
+      ticks: 637897163560000000
+    m_Hash: 4232660727
+>>>>>>> title-screen
   m_LockFileStatus:
     m_FilePath: /Volumes/T7/Scripts/Programming-Theory-Repo/Programming-Theory-Repo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637895757260000000
     m_Hash: 2367221569
+=======
+      ticks: 637897163560000000
+    m_Hash: 398154054
+>>>>>>> title-screen
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
