@@ -9,18 +9,10 @@ public class Robber_Enemy : Enemy
     {
         Attack();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        Attack();
-    }
-
     public override void Attack()
     {
         player = GameObject.Find("Player").GetComponent<Player>();
-        player.PlayerHealth = player.PlayerHealth - attackPwr;
-        player.Damage();
+        player.Damage(attackPwr);
 
         Debug.Log($"ROBBER: SPECIAL ATTACK -- DEALS {attackPwr} Damage");
     }

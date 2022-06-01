@@ -4,29 +4,20 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField]
     private int playerhealth;
     public int PlayerHealth
     {
         get { return playerhealth; }
-        set { if (value < 0)
+        set 
+        { if (value < 0)
                 playerhealth = 0;
         }
     }
-    // Start is called before the first frame update
-    void Start()
+    public void Damage(int dmgValue)
     {
-        playerhealth = 100;
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-    public void Damage()
-    {
+        playerhealth -= dmgValue;
         Debug.Log($"PLayer Damaged -- Player's health: {playerhealth}");
+
     }
 }
