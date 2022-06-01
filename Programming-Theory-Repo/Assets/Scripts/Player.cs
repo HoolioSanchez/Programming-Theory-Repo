@@ -8,6 +8,8 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private int playerhealth;
+
+    // ENCAPSULATION
     public int PlayerHealth
     {
         get { return playerhealth; }
@@ -17,6 +19,7 @@ public class Player : MonoBehaviour
         }
     }
 
+    // ABSTRACTION
     public void Damage(int dmgValue)
     {
         playerhealth -= dmgValue;
